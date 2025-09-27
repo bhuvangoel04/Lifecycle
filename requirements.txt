@@ -1,0 +1,19 @@
+# Web Framework
+fastapi
+
+# ASGI Server
+uvicorn[standard]
+
+# Database ORM
+sqlalchemy
+
+# PostgreSQL Driver
+psycopg2-binary
+
+# Google API
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+# For managing environment variables (secrets)
+python-dotenv
