@@ -1,7 +1,7 @@
 # app/main.py
 
 from fastapi import FastAPI
-from .auth import auth_router  # Import the auth router
+from .auth import auth_router 
 
 app = FastAPI(
     title="AccessFlow API",
@@ -9,7 +9,6 @@ app = FastAPI(
     version="0.1.0"
 )
 
-# Include the authentication routes in our main application
 app.include_router(auth_router)
 
 @app.get("/")
